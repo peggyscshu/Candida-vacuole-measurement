@@ -1,4 +1,4 @@
-# Candida-vacuole-measurement    ![image](https://github.com/user-attachments/assets/dbaae1f0-5890-4e56-b861-eb13091e5df7)
+# Candida-vacuole-measurement    [![DOI](https://zenodo.org/badge/951821520.svg)](https://doi.org/10.5281/zenodo.15309072)
 
 ![image](https://github.com/user-attachments/assets/29302f53-1753-4ff3-a76c-433c661d8310)
 
