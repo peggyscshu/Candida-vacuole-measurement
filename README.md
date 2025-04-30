@@ -1,20 +1,20 @@
 # Candida-vacuole-measurement
 ![image](https://github.com/user-attachments/assets/29302f53-1753-4ff3-a76c-433c661d8310)
 
-#Introduction
+# Introduction
 This is an Image J[1] macro-based analysis tool for identifying Candida-containing vacuoles (CCVs) and quantifying LC3 intensity at vacuole boundaries. 
 This tool is designed for the automated detection and quantification of LC3 signal surrounding CCVs in fluorescence microscopy images. It processes multi-channel images, including DAPI, GFP-labeled Candida, and LC3, and outputs a summary table of the cell number, vacuole number and the LC3 intensity. 
 
-#Examples
+# Examples
 Candida-containing vacuoles (CCVs) images, captured by Mr. 劉舜治, are the courtesy from Dr. Li-Chung Hsu, Institute of Molecular Medicine, National Taiwan University. The image is composed by four channels in the following order—DAPI, GFP-labeled Candida, Actin and LC3. Please use the same order to arrange the input image to avoid the quantification from the wrong channel.
 
-#Edition
+# Edition
 •  20250429_Vacuole counting and measure intensity_WithMask.ijm: 
 The intermediate files for all processed images will be saved in the same folder for further data inspection. Nine additional intermediate files will be generated from one raw image. This version secures all the data but increases the requirement for data storage.  
 •  20250430_Vacuole counting and measure intensity_NoMask.ijm: 
   Only the intermediate files for the last processed image will be saved in the same folder for a quick inspection. 
 
-#Description
+# Description
 1.	Image Preprocessing:
 Image channels are split and renamed for downstream analysis.
 2.	Cell Boundary Detection:
@@ -32,7 +32,7 @@ The LC3 signal surrounding each identified vacuole is measured to assess LC3 rec
 8.	Result Export:
  Depending on the selected edition, the results may include intermediate masks and ROIs. In all cases, an Excel file is generated containing summary measurements, including LC3 intensity per vacuole, cell count, and the number of LC3-positive vacuoles.
 
-#Instructions
+# Instructions
 1.	Install ImageJ/Fiji with CLIJ2 plugin. 
 2.	Place all your multi-channel TIFF images in a folder.
 3.	According to your needs, choose a version of the macro to download. 
@@ -40,10 +40,10 @@ The LC3 signal surrounding each identified vacuole is measured to assess LC3 rec
 5.	Run the script; It will prompt you to select your folder.
 6.	Intermediate files including masks and ROIs will be saved in the same directory. The measurements for each image will be collected in a summary table.
 
-#Acknowledgements
+# Acknowledgements
 We thank Mr.劉舜治and Dr. Li-Chung Hsu(徐立中) for providing the demonstration images used during the development of this workflow.
 
-#Reference
+# Reference
 1.	Schindelin, J., Arganda-Carreras, I., Frise, E., et al. (2012). Fiji: an open-source platform for biological-image analysis. Nature Methods, 9(7), 676–682. https://doi.org/10.1038/nmeth.2019
 2.	Otsu, N. (1979). A threshold selection method from gray-level histograms. IEEE Transactions on Systems, Man, and Cybernetics, 9(1), 62–66. https://doi.org/10.1109/TSMC.1979.4310076
 3.	Haase, R., Royer, L. A., Steinbach, P., et al. (2020). CLIJ: GPU-accelerated image processing for everyone. Nature Methods, 17, 5–6. https://doi.org/10.1038/s41592-019-0650-1
