@@ -16,21 +16,21 @@ The intermediate files for all processed images will be saved in the same folder
   Only the intermediate files for the last processed image will be saved in the same folder for a quick inspection. 
 
 # Description
-1.	Image Preprocessing:
+1.	__Image Preprocessing__:
 Image channels are split and renamed for downstream analysis.
-2.	Cell Boundary Detection:
+2.	__Cell Boundary Detection__:
 The LC3 image in the fourth channel is used to detect the cell boundary. Gaussian blur, thresholding, and convex hull operations are applied to the LC3 channel to approximate cell contours. A binary mask of the cell area is then generated based on these outlines.
-3.	Cell Counting:
+3.  __Cell Counting__:
 Gaussian blur and Otsu[2] thresholding are applied to the DAPI channel to detect nuclei. The resulting image is multiplied by the cell mask to isolate nuclei within cells, allowing for accurate cell counting.
-4.	LC3 Hole Extraction:
+4.	__LC3 Hole Extraction__:
 CLIJ[3]-based tubeness[4] filtering is applied to the LC3 channel to enhance and identify vacuole-like structures.
-5.	Candida Localization:
+5.	__Candida Localization__:
 The DAPI and Candida channels are combined to localize Candida and nuclei. Nuclear regions are then removed to generate a Candida location mask.
-6.	Candida-Containing Vacuole (CCV) Identification:
+6.	__Candida-Containing Vacuole (CCV) Identification__:
 LC3 holes are screened for overlap with Candida localization to identify Candida-containing vacuoles.
-7.	LC3 Intensity Quantification in CCVs:
+7.	__LC3 Intensity Quantification in CCVs__:
 The LC3 signal surrounding each identified vacuole is measured to assess LC3 recruitment.
-8.	Result Export:
+8.	__Result Export__:
  Depending on the selected edition, the results may include intermediate masks and ROIs. In all cases, an Excel file is generated containing summary measurements, including LC3 intensity per vacuole, cell count, and the number of LC3-positive vacuoles.
 
 # Instructions
