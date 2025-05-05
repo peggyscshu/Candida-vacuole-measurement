@@ -3,7 +3,7 @@
  * - Get candida location from both DAPI and Candida channels.
  * - Get candida containing vacuoles (CCV).
  * - Measure LC3 intensity on CCV edges.
- * - Compiled by Shao-Chun, Peggy, Hsu by 2025/3/12.
+ * - Edited by Shao-Chun, Peggy, Hsu by 2025/3/12.
  * - peggyschsu@ntu.edu.tw
  * 
  * This edition skips the generation of intermediate image masks and ROIs for a more streamlined output.
