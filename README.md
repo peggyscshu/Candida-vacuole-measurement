@@ -49,7 +49,7 @@ The LC3 signal surrounding each identified vacuole is measured to assess LC3 rec
 6.	Depending on the version, intermediate files including masks and ROIs will be saved under the same directory or under the parental folder. The measurements for each image will be collected in a summary table.
 
 # Tutorial  
-<https://drive.google.com/file/d/11tuznDLWttF5-3jI9o9FZvoxciQ5A8rT/view?usp=drive_link>
+(https://img.youtube.com/vi/GqjaSe0SBtk/0.jpg)](https://youtu.be/GqjaSe0SBtk)
 
 # Workflow Design
 ![image](https://github.com/user-attachments/assets/2cfde3d2-89ca-4bc1-8371-514c30491f21)
