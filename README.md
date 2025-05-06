@@ -4,16 +4,22 @@
 
 # Introduction
 This is an Image J[1] macro-based analysis tool for identifying Candida-containing vacuoles (CCVs) and quantifying LC3 intensity at vacuole boundaries. 
-This tool is designed for the automated detection and quantification of LC3 signal surrounding CCVs in fluorescence microscopy images. It processes multi-channel images, including DAPI, GFP-labeled Candida, and LC3, and outputs a summary table of the cell number, vacuole number and the LC3 intensity. 
+This tool is designed for the automated detection and quantification of LC3 signal surrounding CCVs in fluorescence microscopy images. It processes multi-channel images, including DAPI, GFP-labeled Candida (strain OG-1), and LC3, and outputs a summary table of the cell number, vacuole number and the LC3 intensity. 
 
 # Examples
-Candida-containing vacuoles (CCVs) images, captured by Mr. 劉舜治, are the courtesy from Dr. Li-Chung Hsu, Institute of Molecular Medicine, National Taiwan University. The image is composed by four channels in the following order—DAPI, GFP-labeled Candida, Actin and LC3. Please use the same order to arrange the input image to avoid the quantification from the wrong channel.
+Candida-containing vacuoles (CCVs) images, captured by Mr. Shun-Chih Liu, are the courtesy from Dr. Li-Chung Hsu, Institute of Molecular Medicine, National Taiwan University. The image is composed by four channels in the following order—DAPI, GFP-labeled Candida, Actin and LC3. Please use the same order to arrange the input image to avoid the quantification from the wrong channel.
 
 # Edition
 •  __20250429_Vacuole counting and measure intensity_WithMask.ijm__: 
 The intermediate files for all processed images will be saved in the same folder for further data inspection. Nine additional intermediate files will be generated from one raw image. This version secures all the data but increases the requirement for data storage.  
 •  __20250430_Vacuole counting and measure intensity_NoMask.ijm__: 
   Only the intermediate files for the last processed image will be saved in the same folder for a quick inspection. 
+•  __20250506_Vacuole counting and measure intensity_ver1.1.0.ijm__:   
+  Main changes in
+   1. Process file format with .tif, .lsm, .czi
+   2. Store all intermediate files in another folder created under the parent folder.
+   3. Report vacuole no. directly if no LC3 holes inside cells are detected.
+   4. Elevate the minimum size requirement for fungal DNA.
 
 # Description
 1.	__Image Preprocessing__:
@@ -39,10 +45,10 @@ The LC3 signal surrounding each identified vacuole is measured to assess LC3 rec
 3.	According to your needs, choose a version of the macro to download. 
 4.	Open the macro in Fiji.
 5.	Run the script; It will prompt you to select your folder.
-6.	Intermediate files including masks and ROIs will be saved in the same directory. The measurements for each image will be collected in a summary table.
+6.	Depending on the version, intermediate files including masks and ROIs will be saved under the same directory or under the parental folder. The measurements for each image will be collected in a summary table.
 
 # Acknowledgements
-We thank Mr.劉舜治and Dr. Li-Chung Hsu(徐立中) for providing the demonstration images used during the development of this workflow.
+We thank Mr.Shun-Chih Lir (劉舜治) and Dr. Li-Chung Hsu(徐立中) for providing the demonstration images used during the development of this workflow.
 
 # Reference
 1.	Schindelin, J., Arganda-Carreras, I., Frise, E., et al. (2012). Fiji: an open-source platform for biological-image analysis. Nature Methods, 9(7), 676–682. https://doi.org/10.1038/nmeth.2019
