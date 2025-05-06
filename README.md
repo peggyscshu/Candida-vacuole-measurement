@@ -51,7 +51,8 @@ The LC3 signal surrounding each identified vacuole is measured to assess LC3 rec
 <https://drive.google.com/file/d/11tuznDLWttF5-3jI9o9FZvoxciQ5A8rT/view?usp=drive_link>
 
 # Workflow Design
-![image](https://github.com/user-attachments/assets/dcd79dd9-1ae5-4699-9126-003729ebbc18)
+![image](https://github.com/user-attachments/assets/2cfde3d2-89ca-4bc1-8371-514c30491f21)
+
 
 
 # Acknowledgements
