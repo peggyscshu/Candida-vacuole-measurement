@@ -48,7 +48,7 @@ The LC3 signal surrounding each identified vacuole is measured to assess LC3 rec
 6.	Depending on the version, intermediate files including masks and ROIs will be saved under the same directory or under the parental folder. The measurements for each image will be collected in a summary table.
 
 # Acknowledgements
-We thank Mr.Shun-Chih Lir (劉舜治) and Dr. Li-Chung Hsu(徐立中) for providing the demonstration images used during the development of this workflow.
+We thank Mr.Shun-Chih Liu (劉舜治) and Dr. Li-Chung Hsu(徐立中) for providing the demonstration images used during the development of this workflow.
 
 # Reference
 1.	Schindelin, J., Arganda-Carreras, I., Frise, E., et al. (2012). Fiji: an open-source platform for biological-image analysis. Nature Methods, 9(7), 676–682. https://doi.org/10.1038/nmeth.2019
