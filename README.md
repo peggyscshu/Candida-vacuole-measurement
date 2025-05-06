@@ -1,6 +1,7 @@
-# Candida-vacuole-measurement    [![DOI](https://zenodo.org/badge/951821520.svg)](https://doi.org/10.5281/zenodo.15309072)
+# Candida-vacuole-measurement                            [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15347737.svg)](https://doi.org/10.5281/zenodo.15347737) v1.1.0  
 
 ![image](https://github.com/user-attachments/assets/29302f53-1753-4ff3-a76c-433c661d8310)
+
 
 # Introduction
 This is an Image J[1] macro-based analysis tool for identifying Candida-containing vacuoles (CCVs) and quantifying LC3 intensity at vacuole boundaries. 
@@ -9,11 +10,16 @@ This tool is designed for the automated detection and quantification of LC3 sign
 # Examples
 Candida-containing vacuoles (CCVs) images, captured by Mr. Shun-Chih Liu, are the courtesy from Dr. Li-Chung Hsu, Institute of Molecular Medicine, National Taiwan University. The image is composed by four channels in the following order—DAPI, GFP-labeled Candida, Actin and LC3. Please use the same order to arrange the input image to avoid the quantification from the wrong channel.
 
-# Edition
+# Version
 •  __20250429_Vacuole counting and measure intensity_WithMask.ijm__: 
 The intermediate files for all processed images will be saved in the same folder for further data inspection. Nine additional intermediate files will be generated from one raw image. This version secures all the data but increases the requirement for data storage.  
+
+v1.0.0：DOI [![DOI](https://zenodo.org/badge/951821520.svg)](https://doi.org/10.5281/zenodo.15309072) 
+
 •  __20250430_Vacuole counting and measure intensity_NoMask.ijm__: 
   Only the intermediate files for the last processed image will be saved in the same folder for a quick inspection. 
+
+v1.0.0：DOI [![DOI](https://zenodo.org/badge/951821520.svg)](https://doi.org/10.5281/zenodo.15309072)
 
 •  __20250506_Vacuole counting and measure intensity_ver1.1.0.ijm__:   
   Main changes in
@@ -22,6 +28,7 @@ The intermediate files for all processed images will be saved in the same folder
    3. Report vacuole no. directly if no LC3 holes inside cells are detected.
    4. Elevate the minimum size requirement for fungal DNA.
 
+v1.1.0: DOI  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15347737.svg)](https://doi.org/10.5281/zenodo.15347737)
 # Description
 1.	__Image Preprocessing__:
 Image channels are split and renamed for downstream analysis.
