@@ -47,6 +47,9 @@ The LC3 signal surrounding each identified vacuole is measured to assess LC3 rec
 5.	Run the script; It will prompt you to select your folder.
 6.	Depending on the version, intermediate files including masks and ROIs will be saved under the same directory or under the parental folder. The measurements for each image will be collected in a summary table.
 
+# Tutorial  
+<https://drive.google.com/file/d/11tuznDLWttF5-3jI9o9FZvoxciQ5A8rT/view?usp=drive_link>
+
 # Acknowledgements
 We thank Mr.Shun-Chih Liu (劉舜治) and Dr. Li-Chung Hsu(徐立中) for providing the demonstration images used during the development of this workflow.
 
@@ -58,5 +61,4 @@ We thank Mr.Shun-Chih Liu (劉舜治) and Dr. Li-Chung Hsu(徐立中) for provid
 5.	Phansalkar, N., More, S., Sabale, A., & Joshi, M. (2011). Adaptive local thresholding for detection of nuclei in diversity stained cytology images. In 2011 International Conference on Communications and Signal Processing (pp. 218–220). IEEE. https://doi.org/10.1109/ICCSP.2011.5739305
 
 
-The tutorial is available here.
-<https://drive.google.com/file/d/11tuznDLWttF5-3jI9o9FZvoxciQ5A8rT/view?usp=drive_link>
+
