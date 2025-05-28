@@ -32,8 +32,8 @@ v1.1.0: DOI  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15347737.svg)](
 
 •  __20250526_Vacuole counting and measure intensity_ver1.1.2.ijm__:
   Main changes in
-   1. Count Candida cell wall inside of cells.
-   2. select none before filtering out Vacuole with low DAPI intensity.
+  1. Candida detection: Added functionality to count Candida cell walls located inside cells.
+  2. Improved vacuole filtering: A Select None step is added before filtering out vacuoles with low DAPI intensity, ensuring accurate exclusion.
 
 # Description
 1.	__Image Preprocessing__:
