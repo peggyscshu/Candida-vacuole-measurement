@@ -28,6 +28,11 @@ v1.0.0：DOI [![DOI](https://zenodo.org/badge/951821520.svg)](https://doi.org/10
    3. Report vacuole no. directly if no LC3 holes inside cells are detected.
    4. Elevate the minimum size requirement for fungal DNA.
 
+•  __20250526_Vacuole counting and measure intensity_ver1.1.2.ijm__:
+  Main changes in
+  1. Count Candida cell wall inside of cells.
+  2. select none before filtering out Vacuole with low DAPI intensity.
+
 v1.1.0: DOI  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15347737.svg)](https://doi.org/10.5281/zenodo.15347737)
 # Description
 1.	__Image Preprocessing__:
