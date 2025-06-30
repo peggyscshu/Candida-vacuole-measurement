@@ -14,12 +14,8 @@ Candida-containing vacuoles (CCVs) images, captured by Mr. Shun-Chih Liu, are th
 •  __20250429_Vacuole counting and measure intensity_WithMask.ijm__: 
 The intermediate files for all processed images will be saved in the same folder for further data inspection. Nine additional intermediate files will be generated from one raw image. This version secures all the data but increases the requirement for data storage.  
 
-v1.0.0：DOI [![DOI](https://zenodo.org/badge/951821520.svg)](https://doi.org/10.5281/zenodo.15309072) 
-
 •  __20250430_Vacuole counting and measure intensity_NoMask.ijm__: 
   Only the intermediate files for the last processed image will be saved in the same folder for a quick inspection. 
-
-v1.0.0：DOI [![DOI](https://zenodo.org/badge/951821520.svg)](https://doi.org/10.5281/zenodo.15309072)
 
 •  __20250506_Vacuole counting and measure intensity_ver1.1.0.ijm__:   
   Main changes in
