@@ -36,7 +36,7 @@ v1.1.0: DOI  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15347737.svg)](
   6. The nucleus number is counted by the DAPI channel.
   7. The cell area is measured from the actin channel.
 
-v1.1.3:  
+v1.1.3: DOI
 
 
 # Description
