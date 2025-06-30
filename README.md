@@ -30,6 +30,19 @@ v1.0.0：DOI [![DOI](https://zenodo.org/badge/951821520.svg)](https://doi.org/10
 
 v1.1.0: DOI  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15347737.svg)](https://doi.org/10.5281/zenodo.15347737)
 
+•  __20250603_Vacuole counting and measure intensity_ver1.1.3.ijm__:
+  Main change in 
+  1. Change the channel order from "DAPI, Candida, actin, LC3" to "DAPI, actin, Candia and LC3."
+  2. Use the actin channel to identify cell contour and fiilter with the area size.
+  3. Candida was defined by the fungal DNA surrounded by Candida GFP. Because fungal DNA were not surrounded by Candida GFP, these regions were defined by the DAPI staining channel.
+  4. The cell number was not counted by the DAPI channel to avoid the double nuclei over counting.
+  5. Count Candida cell wall inside of cells.
+  6. The nucleus number is counted by the DAPI channel.
+  7. The cell area is measured from the actin channel.
+
+v1.1.3:  
+
+
 # Description
 1.	__Image Preprocessing__:
 Image channels are split and renamed for downstream analysis.
