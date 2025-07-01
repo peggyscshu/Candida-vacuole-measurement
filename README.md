@@ -19,14 +19,12 @@ The intermediate files for all processed images will be saved in the same folder
 •  __20250430_Vacuole counting and measure intensity_NoMask.ijm__: 
   Only the intermediate files for the last processed image will be saved in the same folder for a quick inspection. 
 
-•  __20250506_Vacuole counting and measure intensity_ver1.1.0.ijm__:   
+•  __20250506_Vacuole counting and measure intensity_ver1.1.0.ijm__:   v1.1.0: DOI  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15347737.svg)](https://doi.org/10.5281/zenodo.15347737)
   Main changes in
    1. Process file format with .tif, .lsm, .czi
    2. Store all intermediate files in another folder created under the parent folder.
    3. Report vacuole no. directly if no LC3 holes inside cells are detected.
    4. Elevate the minimum size requirement for fungal DNA.
-
-v1.1.0: DOI  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15347737.svg)](https://doi.org/10.5281/zenodo.15347737)
 
 •  __20250603_Vacuole counting and measure intensity_ver1.1.3.ijm__:
   Main change in 
