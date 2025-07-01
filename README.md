@@ -20,13 +20,15 @@ The intermediate files for all processed images will be saved in the same folder
   Only the intermediate files for the last processed image will be saved in the same folder for a quick inspection. 
 
 •  __20250506_Vacuole counting and measure intensity_ver1.1.0.ijm__:   v1.1.0: DOI  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15347737.svg)](https://doi.org/10.5281/zenodo.15347737)
+
   Main changes in
    1. Process file format with .tif, .lsm, .czi
    2. Store all intermediate files in another folder created under the parent folder.
    3. Report vacuole no. directly if no LC3 holes inside cells are detected.
    4. Elevate the minimum size requirement for fungal DNA.
 
-•  __20250603_Vacuole counting and measure intensity_ver1.1.3.ijm__:
+•  __20250603_Vacuole counting and measure intensity_ver1.1.3.ijm__: v1.1.3: DOI
+
   Main change in 
   1. Change the channel order from "DAPI, Candida, actin, LC3" to "DAPI, actin, Candia and LC3."
   2. Use the actin channel to identify cell contour and fiilter with the area size.
@@ -36,7 +38,7 @@ The intermediate files for all processed images will be saved in the same folder
   6. The nucleus number is counted by the DAPI channel.
   7. The cell area is measured from the actin channel.
 
-v1.1.3: DOI
+
 
 
 # Description
