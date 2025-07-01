@@ -10,7 +10,7 @@ This tool is designed for the automated detection and quantification of LC3 sign
 # Examples
 Candida-containing vacuoles (CCVs) images, captured by Mr. Shun-Chih Liu, are the courtesy from Dr. Li-Chung Hsu, Institute of Molecular Medicine, National Taiwan University. 
 The test image is composed by four channels in the following order—DAPI, GFP-labeled Candida, Actin and LC3. Please use the same order to arrange the input image to avoid the quantification from the wrong channel.
-Image 13.lsm is used to test the script version 1.1.0.
+Image 13.lsm is used to test the script version 1.1.0, while Image10.lsm is used for version 1.1.3.
 
 # Version
 •  __20250429_Vacuole counting and measure intensity_WithMask.ijm__: 
