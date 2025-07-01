@@ -8,7 +8,9 @@ This is an Image J[1] macro-based analysis tool for identifying Candida-containi
 This tool is designed for the automated detection and quantification of LC3 signal surrounding CCVs in fluorescence microscopy images. It processes multi-channel images, including DAPI, GFP-labeled Candida (strain OG-1), and LC3, and outputs a summary table of the cell number, vacuole number and the LC3 intensity. 
 
 # Examples
-Candida-containing vacuoles (CCVs) images, captured by Mr. Shun-Chih Liu, are the courtesy from Dr. Li-Chung Hsu, Institute of Molecular Medicine, National Taiwan University. The image is composed by four channels in the following order—DAPI, GFP-labeled Candida, Actin and LC3. Please use the same order to arrange the input image to avoid the quantification from the wrong channel.
+Candida-containing vacuoles (CCVs) images, captured by Mr. Shun-Chih Liu, are the courtesy from Dr. Li-Chung Hsu, Institute of Molecular Medicine, National Taiwan University. 
+The test image is composed by four channels in the following order—DAPI, GFP-labeled Candida, Actin and LC3. Please use the same order to arrange the input image to avoid the quantification from the wrong channel.
+Image 13.lsm is used to test the script version 1.1.0.
 
 # Version
 •  __20250429_Vacuole counting and measure intensity_WithMask.ijm__: 
