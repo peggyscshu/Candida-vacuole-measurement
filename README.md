@@ -1,4 +1,6 @@
-# Candida-vacuole-measurement                            [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15347737.svg)](https://doi.org/10.5281/zenodo.15347737) v1.1.0  
+# Candida-vacuole-measurement                          
+[![DOI](https://zenodo.org/badge/951821520.svg)](https://doi.org/10.5281/zenodo.15309072) v1.1.3
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15347737.svg)](https://doi.org/10.5281/zenodo.15347737) v1.1.0  
 
 ![image](https://github.com/user-attachments/assets/29302f53-1753-4ff3-a76c-433c661d8310)
 
@@ -27,7 +29,7 @@ The intermediate files for all processed images will be saved in the same folder
    3. Report vacuole no. directly if no LC3 holes inside cells are detected.
    4. Elevate the minimum size requirement for fungal DNA.
 
-•  __20250603_Vacuole counting and measure intensity_ver1.1.3.ijm__: v1.1.3: DOI
+•  __20250603_Vacuole counting and measure intensity_ver1.1.3.ijm__: v1.1.3: DOI [![DOI](https://zenodo.org/badge/951821520.svg)](https://doi.org/10.5281/zenodo.15309072)
 
   Main change in 
   1. Change the channel order from "DAPI, Candida, actin, LC3" to "DAPI, actin, Candia and LC3."
